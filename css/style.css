@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+a{
+	color:#fff;
+	text-decoration:none;
+	cursor:pointer;
+}
+.header{
+	display:flex;
+	justify-content: space-between;
+	padding:7px;
+	background:#3d3d3d;
+	color: #fff;
+	font-family:'Roboto', sans-serif;
+	border-radius:15px;
+}
+.header__section {
+	display: flex;
+	align-items:center;
+}
+.header__item {
+	padding: 10px, 15px;
+	font-size:23px;
+	margin-left:25px;
+	transition:0.5s;
+}
+.header__item:hover {
+	background-color: gray;
+	border-radius: 13px;
+	padding:1px;
+	font-size:24px;
+}
+.headerlogo{
+	font-weight: bold;
+}
+
+.headerButton {
+	cursor: pointer;
+}
+#img-one {
+	width:290px;
+	height:390px;
+	margin-top:50px;
+	margin-left:20px;
+}
+#img-two {
+	width:290px;
+	height:390px;
+	margin-top:50px;
+	margin-left:160px;
+}
+#img-three {
+	width:290px;
+	height:390px;
+	margin-top:50px;
+	margin-left:160px;
+}
+#info-h3-holder {
+	margin-left:34%;
+	margin-top:-15%;
+	color:white;
+}
+#info-h4-holder {
+	margin-left:34%;
+	margin-top:2%;
+	color:white;
+}
+#info-h3-folder {
+	margin-left:72%;
+	margin-top:-13%;
+	color:white;
+}
+#info-h4-folder {
+	margin-left:71%;
+	color:white;
+}
+#info-h3{
+    color:white;
+}
+#info-h4{
+	color:white;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+#button-holder {
+	margin-left:27%;
+}
+#button-folder {
+	margin-left:25%;
+}
+#button-main {
+	margin-left: 2%;
+}
+.copyright {
+	font-size:27px;
+	color:white;
+	margin-left: 45%;
+}
